@@ -1,0 +1,44 @@
+// Font
+@charset "utf-8";
+$family-primary: "Verdana", sans-serif;
+// Colors
+//$primary: #d1e7d6 !default;
+$primary: #ffffff !default;
+$text: #000 !default;
+$title-color: #000 !default;
+//$primary-light: #e7f2ea;
+//$primary-light: #ffffff;
+$light: #e7f2ea;
+$primary-dark: #1e7d73;
+$dark: #09443e;
+
+// Specific styles
+@import "layout";
+@import "helper";
+@import "icons";
+@import "print";
+
+.highlighter h3 {
+  padding-top: 0;
+}
+
+.column.is-5 .highlighter {
+  margin-top: 0;
+}
+.highlighter img.is-rounded {
+  padding: 0;
+}
+
+.hero.is-primary
+  a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
+.hero.is-primary strong {
+  color: $dark;
+  text-decoration: underline;
+}
+
+.navbar-end {
+  margin-left: 50%;
+}
+.navbar {
+  padding-bottom: 0;
+}

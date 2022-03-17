@@ -1,0 +1,80 @@
+# ----------------------------------- Basic ---------------------------------- #
+
+title: INTIA
+email: intia@th-koeln.de
+description: >- # this means to ignore newlines until "baseurl:"
+  A plattform for methods, techniques, toolkits and patterns for participative development in a social context.
+baseurl: ""
+url: ""
+markdown: CommonMarkGhPages
+# ----------------------------------- Theme ---------------------------------- #
+
+theme: intia-theme
+footer_menu: footer
+
+# ---------------------------------- Plugins --------------------------------- #
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-coffeescript
+  - jekyll-commonmark-ghpages
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-sass-converter
+  - jekyll-titles-from-headings
+  - jekyll-watch
+  - jekyll-hyperlinkify-glossary
+github: [metadata]
+sass:
+  style: compressed
+# ------------------------- Defaults and Collections ------------------------- #
+
+# Defaults
+defaults:
+  - scope:
+      type: pages
+      path: pages
+    values:
+      layout: default
+  - scope:
+      type: posts
+      path: _posts
+    values:
+      permalink: /stories/:title/
+      layout: default
+  - scope:
+      type: glossary
+      path: _glossary
+    values:
+      permalink: /knowhow/glossary/:title/
+      layout: default   
+
+# Collections
+collections_dir: collections
+collections:
+  glossary:
+    output: true
+
+# --------------------------- Includes and Excludes -------------------------- #
+
+# Include
+include:
+  - CNAME
+
+# Exclude from processing.
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
