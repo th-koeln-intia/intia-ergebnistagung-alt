@@ -42,3 +42,24 @@ $dark: #09443e;
 .navbar {
   padding-bottom: 0;
 }
+
+.logo-container {
+  justify-content: center;
+}
+.logo {
+  width: 25%;
+  padding-bottom: 2rem;
+}
+hr {
+  border: none;
+  height: 2px;
+  /* Set the hr color */
+  color: #1e7d73; /* old IE */
+  background-color: #1e7d73; /* Modern Browsers */
+}
+.button-row {
+  justify-content: center;
+  gap: 12px;
+  display: flex;
+  margin-top: 2rem;
+}
