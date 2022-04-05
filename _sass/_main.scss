@@ -49,6 +49,7 @@ $dark: #09443e;
 .logo {
   width: 25%;
   padding-bottom: 2rem;
+  padding-top: 1.5rem;
 }
 hr {
   border: none;
@@ -62,4 +63,57 @@ hr {
   gap: 12px;
   display: flex;
   margin-top: 2rem;
+}
+.overtitle.subtitle {
+  padding-top: 100px;
+}
+.title.title-with-overtitle{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.container .subtitle{
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+h1 {
+  color: #1e7d73;
+  padding-top: 100px !important;
+}
+.highlighter{
+  font-size: 110%;
+  padding-bottom: 0;
+}
+.highlighter h3{
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  padding-top: 2rem;
+}
+.logo-leiste{
+  padding-top: 1rem;
+}
+.container ul li{
+  margin-left: 2rem;
+}
+small {
+  font-size: 0.6em;
+}
+td p{
+  color: #1e7d73;
+  padding: 0;
+  padding-bottom: 0.3em;
+  font-weight: bold;
+}
+.tb th,
+.tb td {
+  padding: 10px;
+  padding-bottom: 20px;
+  border-bottom: solid 2px #1e7d73;
+}
+.tb td{
+  width: (100% /2) -200px;
+}
+.tb th{
+  min-width:8em;
 }

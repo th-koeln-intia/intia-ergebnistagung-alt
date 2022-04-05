@@ -1,4 +1,23 @@
 // Custom Icons
+.icon-location:before {
+  @extend .custom-icon;
+  background: url(/assets/img/icons/location.svg) no-repeat;
+  width: 96px;
+  height: 96px;
+}
+.icon-calendar:before {
+  @extend .custom-icon;
+  background: url(/assets/img/icons/calendar.svg) no-repeat;
+  width: 96px;
+  height: 96px;
+}
+.icon-login:before {
+  @extend .custom-icon;
+  background: url(/assets/img/icons/login.svg) no-repeat;
+  width: 96px;
+  height: 96px;
+}
+
 // About Icons
 .icon-handshake:before {
   @extend .custom-icon;
