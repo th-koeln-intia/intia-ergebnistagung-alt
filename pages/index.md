@@ -101,15 +101,14 @@ Anmeldung an
           <strong>Prof. Dr. Isabel Zorn</strong>
           <br>
           <br>
-          <br>
           Alltagsbedarfe von Jugendlichen in stationären Einrichtungen aus Sicht der Sozialen Arbeit und der Informatik: Empirische Erhebung und Domänenmodell
         </td>
         <td>
            <p> Track 02</p>
            <br>
-           <strong>B.Sc. Dennis Christian Wilk</strong>
+           <strong>B.Sc. Dennis Christian Wilk &</strong>
           <br>
-           <strong>Prof. Dr. Christian Kohls &</strong>
+           <strong>Prof. Dr. Christian Kohls</strong>
           <br>
           <br>
           Design-Toolkit und Technikequipment für inklusive Entwicklungsprozesse 
@@ -132,9 +131,9 @@ Anmeldung an
         <td>
             <p>Track 02</p>
                     <br>
-           <strong>M.Sc. Marc Schmidt</strong>
+           <strong>M.Sc. Marc Schmidt &</strong>
           <br>
-           <strong>Prof. Dr. Stefan Bente &</strong>
+           <strong>Prof. Dr. Stefan Bente</strong>
           <br>
           <br>
           Inklusive Technikentwicklungsmethoden: Die INTIA-Plattform als inklusive, barrierearme Community und Methodensammlung
@@ -164,8 +163,6 @@ Anmeldung an
            <p>Track 02</p>
           <br>
            <strong>B.Sc. Dennis Christian Wilk</strong>
-          <br>
-          <br>
           <br>
           <br>
           Entwicklung einer Einstiegsmethode zu Motivation und Kenntnis für Technikentwicklung für Fachkräfte und Adressat:innen der Sozialen Arbeit 
