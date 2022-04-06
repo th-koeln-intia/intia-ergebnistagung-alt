@@ -98,7 +98,9 @@ Anmeldung an
         <td>
            <p>Track 01</p>
           <br>
-          <strong>Prof. Dr. Isabel Zorn</strong>
+          <strong>Prof. Dr. Isabel Zorn &</strong>
+          <br>
+          <strong>Prof. Dr. Stefan Bente</strong>
           <br>
           <br>
           Alltagsbedarfe von Jugendlichen in stationären Einrichtungen aus Sicht der Sozialen Arbeit und der Informatik: Empirische Erhebung und Domänenmodell
