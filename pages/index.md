@@ -251,4 +251,4 @@ die Grenzen von Forschungsdisziplinen und Berufspraktiken hinaus gegeben.
 
 # Teilnehmen
 
-Eine Registrierung ist für die Teilnahme nicht nötig. Sie erhalten den Zugangslink zu Zoom automatisiert über eine Email an [intia@th-koeln.de](mailto:intia@th-koeln.de). Auch wenn Sie Anregungen oder Fragen haben, schreiben Sie uns gerne an die genannte Email-Adresse.
+Eine Registrierung ist für die Teilnahme nicht nötig. Sie erhalten den Zugangslink zu Zoom automatisiert über eine Email an [intia@th-koeln.de](mailto:intia@th-koeln.de). Auch wenn Sie Anregungen oder Fragen haben, schreiben Sie uns gerne an [carola.janda@th-koeln.de](mailto:carola.janda@th-koeln.de).
