@@ -200,13 +200,19 @@ Anmeldung an
     <tr>
         <th>12:30 Uhr</th>
         <td colspan="2">
+          Zusammenfassung und Ausblick
+        </td>
+    </tr>
+    <tr>
+        <th>12:45 Uhr</th>
+        <td colspan="2">
           <p>Open Space</p>
           <br>
           Diskussion und Austausch zu Ihren Anknüpfungspunkten
         </td>
     </tr>
     <tr>
-        <th>13:30 Uhr</th>
+        <th>13:45 Uhr</th>
         <td colspan="2">
           Ende
         </td>
