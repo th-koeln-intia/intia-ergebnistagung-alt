@@ -2,7 +2,7 @@
 title: "Partizipation und Inklusion in Technikentwicklung mit vulnerablen Gruppen"
 title_above: 09. JUNI 2022
 subtitle: |
-  Abschlusstagung des BMBF-geförderten <br> Forschungs- und Entwicklungsprojekts INTIA
+  Ergebnistagung des BMBF-geförderten <br> Forschungs- und Entwicklungsprojekts INTIA
 hero_tags: toppage
 permalink: /
 ---
@@ -19,7 +19,7 @@ permalink: /
 </a>
 </div>
 
-# Abschlusstagung INTIA
+# Ergebnistagung INTIA
 
 Das interdisziplinäre Team des Forschungsprojektes INTIA – „Inklusive Entwicklung von Methoden und
 Technologien für digitale Hilfen zur Alltagsbewältigung in der Behinderten- und Erziehungshilfe“,
@@ -240,7 +240,7 @@ Es werden Antworten zu folgenden Kernfragen präsentiert und diskutiert:
   müssen diese gestaltet sein, so dass sie ohne fremde Hilfe eingesetzt werden können?
 
 <br>
-Die Abschlussveranstaltung richtet sich an Wissenschaftler:innen ganz unterschiedlicher
+Die Veranstaltung richtet sich an Wissenschaftler:innen ganz unterschiedlicher
 Fachdisziplinen als auch an die Fachpraxis im breiten Spektrum der Sozialen Arbeit. Alle Interessierten
 sind herzlich eingeladen teilzunehmen und mit zu denken.
 
