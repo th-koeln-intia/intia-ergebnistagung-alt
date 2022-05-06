@@ -123,7 +123,7 @@ Anmeldung an
         <td>
             <p>Track 01</p>
           <br>
-           <strong>Prof. Dr. Birgit Mager &</strong>
+           <strong>Prof. Birgit Mager &</strong>
           <br>
            <strong>M.A. Janina Rösch</strong>
           <br>
