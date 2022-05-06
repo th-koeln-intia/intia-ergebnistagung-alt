@@ -1,0 +1,432 @@
+<!--
+The Default layout that everything is using 
+-->
+
+<!-- Control the width with, if sidebars or menus should appear   -->
+
+
+<!DOCTYPE html>
+<html id="default-layout">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#ffffff>
+    <link rel="stylesheet" href="/assets/styles/main.css">
+    <link rel="shortcut icon" type="image/png"
+           href="/favicon.png" 
+    />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Verdana" rel="stylesheet" type='text/css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">
+    
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="https://methods.intia.de/src/radar/radar.js"></script>
+        <link rel="stylesheet" href="https://methods.intia.de/src/radar/radar.css" />
+    
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Partizipation und Inklusion in Technikentwicklung mit vulnerablen Gruppen | INTIA</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Partizipation und Inklusion in Technikentwicklung mit vulnerablen Gruppen" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A plattform for methods, techniques, toolkits and patterns for participative development in a social context." />
+<meta property="og:description" content="A plattform for methods, techniques, toolkits and patterns for participative development in a social context." />
+<link rel="canonical" href="/" />
+<meta property="og:url" content="/" />
+<meta property="og:site_name" content="INTIA" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Partizipation und Inklusion in Technikentwicklung mit vulnerablen Gruppen" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"A plattform for methods, techniques, toolkits and patterns for participative development in a social context.","headline":"Partizipation und Inklusion in Technikentwicklung mit vulnerablen Gruppen","name":"INTIA","url":"/"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- head scripts -->
+<script src="https://unpkg.com/@botpoison/browser"></script>
+<script type="module" src="/assets/js/main.js"async></script></head>
+
+    <body>
+        <nav class="navbar is-hidden-print is-primary" x-data="{ openNav: false }">
+    <div class="container logo-container">
+        <img class="logo" src="/assets/img/INTIAlogo_farbig_horizontal.png">
+        <!--<img src="/assets/img/INTIA_Logoleiste_2022.png">--> 
+ <!--       <div class="navbar-brand">
+            <a href="/" class="">
+                <img src="/assets/img/logo-black.png">
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu"
+                :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-end buttons">           
+                Abschschlusstagung
+            </div>
+        </div>
+    -->
+    </div>
+</nav>
+        <div class="arrow-image is-pulled-left is-hidden-mobile">
+            <img id="scroll-up" src="/assets/img/arrow-down.png" alt="placeholder">
+            <img id="scroll-down" src="/assets/img/arrow-down.png" alt="placeholder"  class="is-pointed-down">     
+        </div>
+        
+            <section class="hero is-primary is-hidden-print  is-medium   toppage " >
+    <div class="hero-body">
+        <div class="container">
+            
+                <h1 class="overtitle subtitle is-4">09. JUNI 2022</h1>
+            
+            <h1 class="title is-1   title-with-overtitle ">Partizipation und Inklusion in Technikentwicklung mit vulnerablen Gruppen</h1>
+            
+            
+                <p class="subtitle is-4">Ergebnistagung des BMBF-geförderten <br> Forschungs- und Entwicklungsprojekts INTIA
+</p>
+            
+            
+            <div class="buttons-hero has-text-centered">
+                <a  onclick="window.history.back()"  class="button is-rounded is-dark { % if item.link == page.url % } { % endif % }">
+                    <span class="icon is-small">
+                        <i class="fas fa-chevron-left"></i>
+                    </span>
+                    <span>Zur Übersicht</span>
+                </a>
+                <a  onclick="window.print()"  class="button is-rounded is-dark { % if item.link == page.url % } { % endif % }">
+                    <span>Als PDF Herunterladen</span>
+                    <span class="icon is-small">
+                        <i class="fas fa-chevron-right"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <img class="logo-leiste" src="/assets/img/INTIA_Logoleiste_2022.png">
+    <Hr> 
+</section>
+        
+        <div id="main" class="content-wrapper has-background-primary-light">
+            
+            
+            
+            <div class="columns is-centered">
+                <div id="content" class="container column is-10-desktop is-12-tablet">
+                    
+                    <div class="button-row">
+<a href="#agenda" class="button is-rounded is-dark">
+  <span>Vorläufige Agenda</span>
+</a>
+<a href="#ber" class="button is-rounded is-dark">
+  <span>Über die Tagung</span>
+</a>
+<a href="#teilnehmen" class="button is-rounded is-dark">
+  <span>Teilnehmen</span>
+</a>
+</div>
+<h1 id="ergebnistagung-intia">Ergebnistagung INTIA</h1>
+<p>Das interdisziplinäre Team des Forschungsprojektes INTIA – „Inklusive Entwicklung von Methoden und
+Technologien für digitale Hilfen zur Alltagsbewältigung in der Behinderten- und Erziehungshilfe“,
+gefördert durch das Bundesministerium für Bildung und Forschung (BMBF) stellt gegen Ende des
+Projekts die Ergebnisse vor und lädt zu einer offenen Diskussion über den theoretischen
+Forschungsrahmen, Praxisbezüge sowie nachhaltige Anschlussperspektiven ein.</p>
+<div class="highlighter     ">  
+<div class='columns'>
+<div class='column is-one-third has-text-centered'>
+<span class='icon is-small'>
+<i class='fas icon-calendar fa-2x'></i>
+</span>
+<h3>Wann</h3>
+Donnerstag, 09.06.2022
+</br>
+09:00 bis 13:30 Uhr
+</div>
+<div class='column is-one-third has-text-centered'>
+<span class='icon is-small'>
+<i class='fas icon-location fa-2x'></i>
+</span>
+<h3>Wo</h3>
+Online, auf Zoom.
+</br>
+Kostenlos
+</div>
+<div class='column is-one-third has-text-centered'>
+<span class='icon is-small'>
+<i class='fas icon-login fa-2x'></i>
+</span>
+<h3>Wie</h3>
+Anmeldung an
+</br>
+<p><a href="mailto:intia@th-koeln.de">intia@th-koeln.de</a></p>
+</div>
+</div>
+</div>
+<h1 id="vorlufige-agenda">Vorläufige Agenda</h1>
+<table class="tb">
+    <tr>
+       <th>08:45 Uhr</th>
+       <td colspan="2">
+          Zoom Onboarding
+        </td>
+    </tr>
+    <tr>
+        <th>09:00 Uhr</th>
+        <td colspan="2">
+          Begrüßung
+        </td>
+    </tr>
+    <tr>
+        <th>09:10 Uhr</th>
+        <td colspan="2">
+          Grußworte
+        </td>
+    </tr>
+    <tr>
+        <th>09:30 Uhr</th>
+        <td colspan="2">
+          <strong>Prof. Dr. Isabel Zorn</strong>
+          <br>
+          Partizipation und Inklusion in Technikentwicklung? 
+          <br>
+          Ergebnisse des FuE-Projektes INTIA in der Gesamtschau
+        </td>
+    </tr>
+    <tr>
+        <th>10:00 Uhr</th>
+        <td>
+           <p>Track 01</p>
+          <br>
+          <strong>Prof. Dr. Isabel Zorn &</strong>
+          <br>
+          <strong>Prof. Dr. Stefan Bente</strong>
+          <br>
+          <br>
+          Alltagsbedarfe von Jugendlichen in stationären Einrichtungen aus Sicht der Sozialen Arbeit und der Informatik: Empirische Erhebung und Domänenmodell
+        </td>
+        <td>
+           <p> Track 02</p>
+           <br>
+           <strong>B.Sc. Dennis Christian Wilk &</strong>
+          <br>
+           <strong>Prof. Dr. Christian Kohls</strong>
+          <br>
+          <br>
+          Design-Toolkit und Technikequipment für inklusive Entwicklungsprozesse 
+          <br>
+          - Der INTIA-Koffer
+        </td>
+    </tr>
+     <tr>
+        <th>10:30 Uhr</th>
+        <td>
+            <p>Track 01</p>
+          <br>
+           <strong>Prof. Birgit Mager &</strong>
+          <br>
+           <strong>M.A. Janina Rösch</strong>
+          <br>
+          <br>
+          Inklusive Bedarfserhebung durch Cultural Probes während coronabedingten Betretungsverboten. Methoden aus dem Service Design
+        </td>
+        <td>
+            <p>Track 02</p>
+                    <br>
+           <strong>M.Sc. Marc Schmidt &</strong>
+          <br>
+           <strong>Prof. Dr. Stefan Bente</strong>
+          <br>
+          <br>
+          Inklusive Technikentwicklungsmethoden: Die INTIA-Plattform als inklusive, barrierearme Community und Methodensammlung
+        </td>
+    </tr>
+    <tr>
+        <th>11:00 Uhr</th>
+        <td colspan="2">
+          Pause
+        </td>
+    </tr>
+    <tr>
+        <th>11:15 Uhr</th>
+        <td>
+           <p>Track 01</p>
+          <br>
+           <strong>TH Köln &</strong>
+          <br>
+           <strong>Ev. Jugendhilfe Godesheim gGmbH (angefragt)</strong>
+          <br>
+          <br>
+          Virtuelle Entwicklungsworkshops mit Jugendlichen in Einrichtungen der Sozialen Arbeit: 
+          <br>
+          Herausforderungen, Umsetzungsmethoden, Evaluationsergebnisse
+        </td>
+        <td>
+           <p>Track 02</p>
+          <br>
+           <strong>B.Sc. Dennis Christian Wilk</strong>
+          <br>
+          <br>
+          Entwicklung einer Einstiegsmethode zu Motivation und Kenntnis für Technikentwicklung für Fachkräfte und Adressat:innen der Sozialen Arbeit 
+          <br>
+          - Das EscapeGame
+        </td>
+    </tr>
+     <tr>
+        <th>11:45 Uhr</th>
+        <td>
+           <p>Track 01</p>
+          <br>
+           <strong>Prof. Dr. Stefan Bente</strong>
+          <br>
+          <br>
+          Interdisziplinäres agiles Arbeiten im Forschungskontext. Herausforderungen und Methoden
+        </td>
+        <td>
+           <p>Track 02</p>
+          <br>
+           <strong>M.Sc. Marc Schmidt</strong>
+          <br>
+          <br>
+          Sprachassistenten zur Unterstützung von Alltagsbewältigung: Eine datenschutzgerechte Entwicklung ohne Alexa & Co.
+        </td>
+    </tr>
+    <tr>
+        <th>12:15 Uhr</th>
+        <td colspan="2">
+          Pause
+        </td>
+    </tr>
+    <tr>
+        <th>12:30 Uhr</th>
+        <td colspan="2">
+          Zusammenfassung und Ausblick
+        </td>
+    </tr>
+    <tr>
+        <th>12:45 Uhr</th>
+        <td colspan="2">
+          <p>Open Space</p>
+          <br>
+          Diskussion und Austausch zu Ihren Anknüpfungspunkten
+        </td>
+    </tr>
+    <tr>
+        <th>13:45 Uhr</th>
+        <td colspan="2">
+          Ende
+        </td>
+    </tr>
+</table>
+<small> Bei den Vortragstiteln handelt es sich um Arbeitstitel. Es ist möglich, dass sich hier noch Anpassungen ergeben.</small>
+<h1 id="ber-die-tagung">Über die Tagung</h1>
+<p>Das interdisziplinäre Forschungsprojekt INTIA – „Inklusive Entwicklung von Methoden und
+Technologien für digitale Hilfen zur Alltagsbewältigung in der Behinderten- und Erziehungshilfe“,
+gefördert durch das Bundesministerium für Bildung und Forschung (BMBF), erforscht und entwickelt
+inklusive Technologieentwicklung mit benachteiligten Jugendlichen aus den Perspektiven der
+Medienforschung und Medienpädagogik, der Sozialen Arbeit, der Informatik sowie des Service
+Design.</p>
+<p>Das Forschungsteam der TH Köln stellt gegen Ende des Projekts die Ergebnisse vor und lädt zu einer
+offenen Diskussion über den theoretischen Forschungsrahmen, Praxisbezüge sowie nachhaltige
+Anschlussperspektiven ein.</p>
+<p>Es werden Antworten zu folgenden Kernfragen präsentiert und diskutiert:</p>
+<ul>
+<li>
+<p>Wie werden digitale Hilfen von Fachkräften der Sozialen Arbeit eingesetzt und von anderen in
+Anspruch genommen? Wie können neue Bedarfe erkannt und umgesetzt werden?</p>
+</li>
+<li>
+<p>Welches Setting unterstützt es, damit vulnerable Adressat:innen Sozialer Arbeit selbst technische
+Hilfsmittel erforschen und über inklusive Interaktionsformen partizipativ Prozesse der Ideen- und
+Technikentwicklung mitgestalten?</p>
+</li>
+<li>
+<p>Welche digitalen Dienste, Applikationen und technische Bausteine sind dafür erforderlich und wie
+müssen diese gestaltet sein, so dass sie ohne fremde Hilfe eingesetzt werden können?</p>
+</li>
+</ul>
+<br>
+Die Veranstaltung richtet sich an Wissenschaftler:innen ganz unterschiedlicher
+Fachdisziplinen als auch an die Fachpraxis im breiten Spektrum der Sozialen Arbeit. Alle Interessierten
+sind herzlich eingeladen teilzunehmen und mit zu denken.
+<p>Das INTIA Team stellt die empirischen und die anwendungsbezogenen Ergebnisse zur Diskussion, z.B.
+entwickelte Artefakte und Methoden des inklusiven partizipativen Entwickelns. In einem interaktiven
+Format wird im Anschluss allen Teilnehmenden die Möglichkeit zu Austausch und Verständigung über
+die Grenzen von Forschungsdisziplinen und Berufspraktiken hinaus gegeben.</p>
+<h1 id="teilnehmen">Teilnehmen</h1>
+<p>Eine Registrierung ist für die Teilnahme nicht nötig. Sie erhalten den Zugangslink zu Zoom automatisiert über eine Email an <a href="mailto:intia@th-koeln.de">intia@th-koeln.de</a>. Auch wenn Sie Anregungen oder Fragen haben, schreiben Sie uns gerne an <a href="mailto:carola.janda@th-koeln.de">carola.janda@th-koeln.de</a>.</p>
+
+                </div>
+            </div> 
+        </div> 
+        
+            <footer class="footer is-hidden-print is-primary">
+    
+    <div class="container columns is-centered is-multiline is-bordered-bottom">
+        <div class="navbar-brand column is-full">
+            <a href="/" class="columns navbar-item">
+                <img class="column" src="/assets/img/logo-white.png">
+                <p class="calumn brand-title"></p>
+            </a>
+        </div>
+        <div class="column is-2">
+            <div class="title">www.intia.de</div>
+                TH-Köln | DITES<br>
+                Campus Südstadt<br>
+                Ubierring 48<br>
+                50678 Köln
+
+        </div>
+        
+        <div class="column is-2">
+            <div class="title">Rechtliches</div>
+            <div class="">
+                
+                <div class="">
+                    <div>
+                        <a href="/about/" class="link">Über die Plattform</a>
+                    </div>
+                </div>
+                
+                <div class="">
+                    <div>
+                        <a href="https://www.th-koeln.de/hochschule/impressum_8159.php" class="link">Impressum</a>
+                    </div>
+                </div>
+                
+                <div class="">
+                    <div>
+                        <a href="https://www.th-koeln.de/hochschule/haftungshinweis_8277.php" class="link">Haftungshinweis</a>
+                    </div>
+                </div>
+                
+                <div class="">
+                    <div>
+                        <a href="https://www.th-koeln.de/hochschule/datenschutzhinweis_8279.php" class="link">Datenschutzhinweis</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+        <div class="columns content is-small has-text-centered footer-logos">
+            <div class="column has-text-right"><div class="page-owner">
+                <p class="has-text-left">Eine Seite von</p>
+                <img src="/assets/img/logos/INTIA_Plattform_Logos_TH_weiss.png">
+                <img src="/assets/img/logos/INTIA_Plattform_Logos_Dites_weiss.png">
+            </div></div>
+            <div class="column has-text-left"><div class="page-sponsor">                
+                <img class="footer-logo-2" src="/assets/img/logos/BMBF_logo.jpg">
+            </div></div>
+        </div>
+        <div class="content is-small has-text-centered">
+            <p class="">INTIA, 2021</p>
+        </div>
+    
+</footer>
+
+        
+    </body>
+</html>
